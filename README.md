@@ -4,7 +4,7 @@
 不是教程，是**可执行的门禁**：每一步都有脚本校验，不通过就不许进下一步。
 
 - 适用：竖屏口播 / 横屏长视频 / 切片矩阵，抖音、小红书、视频号、B站
-- 环境：macOS 为主；`scripts/` 四个 Python 工具在 Linux 同样可跑（发布脚本仅 macOS）
+- 环境：macOS 为主；`scripts/` 五个 Python 工具在 Linux 同样可跑（发布脚本仅 macOS）
 - 依赖：`ffmpeg`、`python3` + `Pillow`、`node` + `ws`
 
 ---
