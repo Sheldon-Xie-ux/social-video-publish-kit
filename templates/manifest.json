@@ -1,0 +1,52 @@
+{
+  "schema": "video-pipeline-kit/v1",
+  "id": "20261105-slice-01",
+  "version": 1,
+  "status": "draft",
+  "platforms": ["douyin", "xhs", "channels", "bili"],
+  "title": "标题写这里（抖音≤30 / 小红书≤20 / 视频号短标题≤16 / B站≤80）",
+  "desc": "正文 + #话题",
+  "canvas": "1080x1920",
+  "duration_sec": 0,
+  "sources": [
+    {
+      "path": "/path/to/source.mov",
+      "sha256": "",
+      "creation_time": "",
+      "note": "原片只读，任何重剪都从这里取"
+    }
+  ],
+  "offsets": {
+    "说明": "每台设备 0 秒在真实时间轴上的位置（秒）",
+    "camera_a": 0,
+    "camera_b": 111
+  },
+  "outputs": {
+    "master": "",
+    "final": "",
+    "subs_ass": "",
+    "cover_9x16": "",
+    "cover_3x4": "",
+    "cover_4x3": "",
+    "cover_16x9": ""
+  },
+  "hashes": {
+    "master": "",
+    "final": ""
+  },
+  "acceptance": {
+    "sync_checked_at": [],
+    "crop_checked": false,
+    "subtitle_bright_bg_checked": false,
+    "first_frame_matches_cover": false,
+    "list_verified_screenshot": ""
+  },
+  "approved_by": null,
+  "published": {
+    "douyin": { "url": "", "time": "", "screenshot": "" },
+    "xhs": { "url": "", "time": "", "screenshot": "" },
+    "channels": { "url": "", "time": "", "screenshot": "" },
+    "bili": { "url": "", "time": "", "screenshot": "" }
+  },
+  "notes": ""
+}

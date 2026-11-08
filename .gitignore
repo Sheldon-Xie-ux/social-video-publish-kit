@@ -1,0 +1,16 @@
+# 依赖
+node_modules/
+publish/node_modules/
+
+# 自测试留痕
+evidence/
+*.png
+
+# Python
+*.pyc
+__pycache__/
+*.egg-info/
+
+# macOS
+.DS_Store
+Thumbs.db
